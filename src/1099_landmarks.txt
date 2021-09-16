@@ -1,9 +1,9 @@
 # brain hemisphere right
 	209194	MB Vertical Lobe Tip	98496.6	30561.143	53568	Go to Delete
-	209197	MB Verical / Medial Lobe intersection	94074.62	45466.63	28764	Go to Delete
+	209197	MB Vertical / Medial Lobe Intersection	94074.62	45466.63	28764	Go to Delete
 # brain hemisphere left
 	209195	MB Vertical Lobe Tip	42976.94	24448.238	49260	Go to Delete
-	209196	MB Verical / Medial Lobe intersection	44041.707	35138.117	25140	Go to Delete
+	209196	MB Vertical / Medial Lobe Intersection	44041.707	35138.117	25140	Go to Delete
 # T1 left
 	47356	NHO-d	63471.336	77488.016	59676	Go to Delete
 	47367	NHO-v	61114.06	99873.68	54756	Go to Delete
