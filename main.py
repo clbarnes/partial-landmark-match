@@ -113,5 +113,5 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     logging.getLogger("matplotlib").setLevel(logging.WARNING)
     # print_eval(SimpleAlgo)
-    # recommend()
-    plot_points()
+    recommend()
+    # plot_points()
