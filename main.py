@@ -20,9 +20,20 @@ logger = logging.getLogger(__name__)
 
 DIMS = ["x", "y", "z"]
 
-def get_cps():
+def get_cps(anterior_only=False):
     src_landmarks = parse_landmarks_txt(SRC_DIR / "1099_landmarks.txt")
     tgt_landmarks = parse_landmarks_txt(SRC_DIR / "Seymour_landmarks.txt")
+
+    if anterior_only:
+        src_landmarks = {
+            k: v for k, v in src_landmarks.items()
+            if "brain" in k
+        }
+        tgt_landmarks = {
+            k: v for k, v in tgt_landmarks.items()
+            if "brain" in k
+        }
+
     src_by_fullname = {
         f"{lm.group}::{lm.name}": lm.location
         for lm in chain.from_iterable(src_landmarks.values())
@@ -31,6 +42,9 @@ def get_cps():
         f"{lm.group}::{lm.name}": lm.location
         for lm in chain.from_iterable(tgt_landmarks.values())
     }
+
+    if anterior_only:
+        src_by_fullname
 
     src_cps = []
     tgt_cps = []
@@ -75,7 +89,7 @@ def print_eval(algo_class: Type[MatchAlgo]):
 
 
 def recommend():
-    src_cps, tgt_cps = get_cps()
+    src_cps, tgt_cps = get_cps(True)
 
     src_other, tgt_other = get_other()
     transformer = Transformer(src_cps, tgt_cps)
@@ -90,7 +104,7 @@ def recommend():
 
 
 def plot_points():
-    src_cps, tgt_cps = get_cps()
+    src_cps, tgt_cps = get_cps(True)
 
     src_other, tgt_other = get_other()
     transformer = Transformer(src_cps, tgt_cps)
@@ -100,7 +114,7 @@ def plot_points():
     ax = fig.add_subplot(projection='3d')
     ax.scatter(*tgt_cps.T, label="seymour control points")
     ax.scatter(*tgt_other[DIMS].to_numpy().T, label="seymour entry points")
-    # ax.scatter(*transformed_src.T, label="1099 entry points")
+    ax.scatter(*transformed_src.T, label="transformed 1099 entry points")
     ax.set_xlabel("x")
     ax.set_ylabel("y")
     ax.set_zlabel("z")
@@ -113,5 +127,5 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     logging.getLogger("matplotlib").setLevel(logging.WARNING)
     # print_eval(SimpleAlgo)
-    recommend()
-    # plot_points()
+    # recommend()
+    plot_points()
