@@ -19,8 +19,9 @@ from utils.parse import SRC_DIR
 logger = logging.getLogger(__name__)
 
 DIMS = ["x", "y", "z"]
+DEFAULT_ANTERIOR_ONLY = False
 
-def get_cps(anterior_only=False):
+def get_cps(anterior_only):
     src_landmarks = parse_landmarks_txt(SRC_DIR / "1099_landmarks.txt")
     tgt_landmarks = parse_landmarks_txt(SRC_DIR / "Seymour_landmarks.txt")
 
@@ -42,9 +43,6 @@ def get_cps(anterior_only=False):
         f"{lm.group}::{lm.name}": lm.location
         for lm in chain.from_iterable(tgt_landmarks.values())
     }
-
-    if anterior_only:
-        src_by_fullname
 
     src_cps = []
     tgt_cps = []
@@ -90,8 +88,8 @@ def print_eval(algo_class: Type[MatchAlgo]):
     print(f"Cost for {algo_class.__name__}: {sum_dists}")
 
 
-def recommend():
-    src_cps, tgt_cps = get_cps(True)
+def recommend(anterior_only=DEFAULT_ANTERIOR_ONLY):
+    src_cps, tgt_cps = get_cps(anterior_only)
 
     src_other, tgt_other = get_other()
     transformer = Transformer(src_cps, tgt_cps)
@@ -105,8 +103,8 @@ def recommend():
             print(f"\t{dist:.1f}\t{w:.2f}\t{neighbour}")
 
 
-def plot_points():
-    src_cps, tgt_cps = get_cps(True)
+def plot_points(anterior_only=DEFAULT_ANTERIOR_ONLY):
+    src_cps, tgt_cps = get_cps(anterior_only)
 
     src_other, tgt_other = get_other()
     transformer = Transformer(src_cps, tgt_cps)
