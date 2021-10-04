@@ -75,7 +75,9 @@ def get_other():
         for side in ["left", "right"]
     ))
 
-    tgt_lms = parse_entry_tsv(SRC_DIR / "Seymour_lineage_entry_points.tsv")
+    tgt_lms = []
+    for side in ["left", "right"]:
+        tgt_lms.extend(parse_entry_tsv(SRC_DIR / f"Seymour_lineage_entry_points_{side}.tsv", group=side))
     logger.info("got %s src, %s tgt points", len(src_lms), len(tgt_lms))
     return landmarks_df(src_lms), landmarks_df(tgt_lms)
 
