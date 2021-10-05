@@ -1,0 +1,4 @@
+name, skeleton_id, treenode_id, parent_treenode_id, x, y, z, r
+"antenna-lobe right", 47039, 312194, 312194, 41537.99, 69644.555, 6120, 1320
+"antenna-lobe left", 47046, 312195, 312195, 97459.266, 82103.86, 13320, 1272
+"commissure", 47053, 312196, 312196, 70480.9, 37541.832, 25008, 1541

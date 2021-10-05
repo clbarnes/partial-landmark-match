@@ -51,6 +51,27 @@ def parse_landmarks_txt(fpath) -> DefaultDict[Optional[str], List[Landmark]]:
     return d
 
 
+def parse_landmarks_csv(fpath, group=None) -> List[Landmark]:
+    out_lst = []
+    with open(fpath) as f:
+        headers = [h.strip() for h in next(f).split(",")]
+        reader = csv.DictReader(f, fieldnames=headers)
+        for row in reader:
+            out_lst.append(
+                Landmark(
+                    int(row["treenode_id"]),
+                    np.array([
+                        float(row["x"]),
+                        float(row["y"]),
+                        float(row["z"]),
+                    ]),
+                    row["name"].strip(),
+                    group,
+                )
+            )
+    return out_lst
+
+
 def parse_entry_tsv(fpath, group=None) -> List[Landmark]:
     with open(fpath) as f:
         return [Landmark.from_line(ln, group=group) for ln in f]
