@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from itertools import chain
-from typing import Type, Iterable
+from typing import Type, Iterable, Dict, Tuple, Optional
 
 import logging
 
@@ -8,9 +8,10 @@ import numpy as np
 from molesq import Transformer
 import pandas as pd
 from matplotlib import pyplot as plt
+from matplotlib.axes import Axes
 
 from utils.transform import MatchAlgo, SimpleAlgo, MatchRecommender
-from utils.parse import Landmark, parse_entry_csv, parse_entry_tsv, parse_landmarks_txt
+from utils.parse import Landmark, parse_entry_csv, parse_entry_tsv, parse_landmarks_txt, parse_landmarks_csv
 from utils.parse import SRC_DIR
 
 # 1099 is src
@@ -21,7 +22,8 @@ logger = logging.getLogger(__name__)
 DIMS = ["x", "y", "z"]
 DEFAULT_ANTERIOR_ONLY = False
 
-def get_cps(anterior_only):
+
+def flat_cps_dicts(anterior_only):
     src_landmarks = parse_landmarks_txt(SRC_DIR / "1099_landmarks.txt")
     tgt_landmarks = parse_landmarks_txt(SRC_DIR / "Seymour_landmarks.txt")
 
@@ -39,10 +41,23 @@ def get_cps(anterior_only):
         f"{lm.group}::{lm.name}": lm.location
         for lm in chain.from_iterable(src_landmarks.values())
     }
+    src_by_fullname.update({
+        lm.name: lm.location
+        for lm in parse_landmarks_csv(SRC_DIR / "1099_commissure_antennaLobe.csv")
+    })
     tgt_by_fullname = {
         f"{lm.group}::{lm.name}": lm.location
         for lm in chain.from_iterable(tgt_landmarks.values())
     }
+    tgt_by_fullname.update({
+        lm.name: lm.location
+        for lm in parse_landmarks_csv(SRC_DIR / "Seymour_commissure_antennaLobe.csv")
+    })
+    return src_by_fullname, tgt_by_fullname
+
+
+def get_cps(anterior_only):
+    src_by_fullname, tgt_by_fullname = flat_cps_dicts(anterior_only)
 
     src_cps = []
     tgt_cps = []
@@ -80,8 +95,8 @@ def get_other():
     return landmarks_df(src_lms), landmarks_df(tgt_lms)
 
 
-def print_eval(algo_class: Type[MatchAlgo]):
-    src_cps, tgt_cps = get_cps()
+def print_eval(algo_class: Type[MatchAlgo], anterior_only=DEFAULT_ANTERIOR_ONLY):
+    src_cps, tgt_cps = get_cps(DEFAULT_ANTERIOR_ONLY)
     src_other, tgt_other = get_other()
     algo = algo_class(src_cps, tgt_cps, src_other[DIMS], tgt_other[DIMS])
     src_idx, tgt_idx, sum_dists, overlaps = algo.match()
@@ -110,16 +125,56 @@ def plot_points(anterior_only=DEFAULT_ANTERIOR_ONLY):
     transformer = Transformer(src_cps, tgt_cps)
     transformed_src = transformer.transform(src_other[DIMS])
 
-    fig = plt.figure()
-    ax = fig.add_subplot(projection='3d')
-    ax.scatter(*tgt_cps.T, label="seymour control points")
-    ax.scatter(*tgt_other[DIMS].to_numpy().T, label="seymour entry points")
-    ax.scatter(*transformed_src.T, label="transformed 1099 entry points")
+    scatter_points({
+        "seymour control points": tgt_cps,
+        "seymour entry points": tgt_other[DIMS].to_numpy(),
+        "transformed 1099 entry points": transformed_src,
+    })
+    plt.show()
+
+
+def split_lr(landmarks: Dict[str, np.ndarray]) -> Tuple[np.ndarray, np.ndarray]:
+    left = []
+    right = []
+    for k, v in landmarks.items():
+        if "left" in k:
+            if "right" in k:
+                logger.warning("ambiguous left/right split for '%s'", k)
+            else:
+                left.append(v)
+        elif "right" in k:
+            right.append(v)
+    return np.array(left), np.array(right)
+
+
+def scatter_points(point_groups: Dict[str, np.ndarray], ax: Optional[Axes] = None):
+    """points is Nx3"""
+    if ax is None:
+        fig = plt.figure()
+        ax = fig.add_subplot(projection='3d')
+
+    for label, points in point_groups.items():
+        ax.scatter(*np.asarray(points).T, label=label)
+
     ax.set_xlabel("x")
     ax.set_ylabel("y")
     ax.set_zlabel("z")
-    ax.legend()
     ax.set_box_aspect([1,1,1])
+    return ax
+
+
+def plot_cps(anterior_only=DEFAULT_ANTERIOR_ONLY):
+    src, tgt = flat_cps_dicts(anterior_only)
+    fig = plt.figure()
+
+    src_l, src_r = split_lr(src)
+    tgt_l, tgt_r = split_lr(tgt)
+
+    ax_src = fig.add_subplot(projection='3d')
+    # ax_tgt = fig.add_subplot(projection='3d')
+
+    scatter_points({"src L": src_l, "src R": src_r}, ax_src)
+    # scatter_points({"tgt L": tgt_l, "tgt R": tgt_r}, ax_tgt)
     plt.show()
 
 
@@ -127,5 +182,6 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     logging.getLogger("matplotlib").setLevel(logging.WARNING)
     # print_eval(SimpleAlgo)
-    # recommend()
-    plot_points()
+    recommend(False)
+    #plot_points(False)
+    # plot_cps()
