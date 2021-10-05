@@ -8,7 +8,7 @@
 - The locations in Y match with a subset of locations in X
 - The labels of locations in Y are largely unknown
 
-## Suggested algorithm
+## Suggested algorithm (NOT IMPLEMENTED YET)
 
 - Use matched locations (i.e. exist in X and Y and share a label) as control points in moving least squares
 - Find the closest location in Y (`L`) to the control points
