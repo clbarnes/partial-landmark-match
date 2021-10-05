@@ -1,564 +1,564 @@
 left::lm_263685
-	10362.4	0.86	DPMpm1
-	11744.6	0.83	DPMm1
-	12754.7	0.79	DPMm2
-	13767.4	0.76	DPMpm2
-	13837.3	0.76	CM4-vm
+	4787.3	0.93	left::DPlal1-3_ant
+	5605.5	0.90	left::DPlal1-3at
+	7417.0	0.83	left::DPLam
+	9375.6	0.73	left::BLAl
+	11328.2	0.61	left::DPLd
 left::lm_263687
-	23958.4	0.85	TRc/DMT Tracts Crossing Point
-	27686.0	0.80	BAmv12 and BAla34 Closest Point
-	27756.9	0.80	CM13_med
-	28676.1	0.78	CM4-vm
-	29765.0	0.77	CM4-dm
+	1080.8	0.98	left::BLAvm ant
+	2289.5	0.92	left::BLAvm post
+	3680.3	0.79	left::BLAv12_ant--v
+	4701.3	0.66	left::BLAv12_post
+	4890.1	0.64	left::BLAv12_ant--d
 left::lm_263688
-	24420.4	0.82	CM4-vm
-	25578.3	0.81	CM4-dm
-	25786.2	0.80	CM13_med
-	26826.3	0.79	TRc/DMT Tracts Crossing Point
-	26929.0	0.78	BAmv12 and BAla34 Closest Point
+	5403.1	0.90	left::BLAvm ant
+	7664.9	0.80	left::BLAv12_ant--v
+	7947.5	0.78	left::BLAv12_ant--d
+	8299.4	0.76	left::BLAvm post
+	8520.2	0.75	left::BLAv12at
 left::lm_263689
-	19021.7	0.81	DPMpm1
-	19232.8	0.81	CM4-vm
-	19408.3	0.81	DPMm1
-	20402.9	0.79	CM4-dm
-	20609.1	0.78	DPMm2
+	6674.1	0.91	left::DPlal1-3_ant
+	7326.0	0.89	left::DPlal1-3at
+	10331.3	0.78	left::BLAl
+	11794.3	0.72	left::BLAvm ant
+	12020.9	0.70	left::BLAd-vl
 left::lm_263690
-	5573.7	0.91	DPMm1
-	7151.0	0.86	DPMl_ant_dor
-	8958.4	0.78	DPMpm1
-	9179.3	0.77	DAMd1
-	10592.4	0.69	DAMv12at
+	9058.2	0.88	left::DPLd
+	10107.9	0.86	left::DPLam
+	13117.1	0.76	left::DPlal1-3_ant
+	13175.3	0.75	left::DPLc_antat
+	13223.0	0.75	left::DALd
 left::lm_263718
-	14339.1	0.86	DAMd1
-	15755.1	0.83	DAMd23
-	17257.5	0.80	DPLd
-	18932.6	0.76	DALcm12-m
-	19011.8	0.75	DPMl_ant_dor
+	15966.9	0.82	left::DAMd23
+	16507.6	0.81	left::DPMm1
+	16792.4	0.80	left::DAMd1
+	17024.2	0.80	left::DPLd
+	18042.4	0.77	left::DALcm12-m
 left::lm_263719
-	14034.0	0.86	DAMd1
-	15291.8	0.83	DAMd23
-	16340.3	0.80	DPLd
-	18288.7	0.76	DALcm12-m
-	18333.7	0.75	DALcm12-v
+	15528.7	0.82	left::DAMd23
+	15681.2	0.81	left::DPMm1
+	16333.8	0.80	left::DAMd1
+	16503.4	0.79	left::DPLd
+	17255.0	0.78	left::DPMl_ant_dor
 left::lm_263720
-	11898.6	0.87	DAMd1
-	13079.6	0.84	DAMd23
-	15435.4	0.78	DPLd
-	16334.6	0.76	DALcm12-m
-	16653.5	0.75	DALcm12-v
+	13564.0	0.83	left::DAMd23
+	14347.0	0.81	left::DPMm1
+	14391.4	0.81	left::DAMd1
+	15621.5	0.78	left::DPLd
+	15652.1	0.77	left::DALcm12-m
 left::lm_263721
-	8455.8	0.87	DAMd1
-	9484.8	0.84	DAMd23
-	10761.2	0.80	DPMl_ant_dor
-	11961.6	0.75	DPMm1
-	12209.2	0.74	DAMv12at
+	8902.7	0.87	left::DPMm1
+	10204.0	0.83	left::DAMd23
+	10777.8	0.81	left::DAMd1
+	11494.6	0.78	left::DPMl_ant_dor
+	12934.8	0.72	left::DALcm12-m
 left::lm_263722
-	7595.3	0.87	DPMl_ant_dor
-	9368.8	0.81	DPMm1
-	9900.9	0.79	DPMpm1
-	9965.1	0.78	DAMd1
-	10640.9	0.75	DAMd23
+	6903.3	0.89	left::DPMm1
+	8442.0	0.84	left::DPMl_ant_dor
+	9338.4	0.81	left::DPMpm1
+	11018.8	0.73	left::DPMm2
+	11033.5	0.73	left::DAMd23
 left::lm_263764
-	14317.8	0.84	CM4-vm
-	14605.1	0.84	CM13_med
-	15403.4	0.82	CM4-dm
-	16586.1	0.79	CM13at
-	19470.8	0.71	DPMm2
+	1839.3	0.96	left::BLAd-vm
+	2178.3	0.94	left::BLAd-vl
+	3604.3	0.83	left::BLAl
+	4969.4	0.68	left::BLAv12at
+	5660.4	0.59	left::BLDc
 left::lm_263792
-	6458.4	0.91	DPLd
-	9833.2	0.80	DALd
-	10381.2	0.77	DALcm12-v
-	10556.7	0.77	DPLc_antat
-	10869.9	0.75	DPMl_ant_dor
+	3911.0	0.96	left::DPLd
+	5097.8	0.93	left::DPLc_antat
+	8951.2	0.79	left::DPLam
+	10961.7	0.69	left::DPLc_postat
+	11924.8	0.63	left::DALd
 left::lm_263793
-	4002.2	0.91	DAMd23
-	5046.3	0.86	BAmd1--d
-	5938.5	0.81	DALcm12-m
-	6974.5	0.73	DAMv12at
-	7493.3	0.69	DAMv12_med
+	2048.5	0.98	left::DALcm12-m
+	6495.9	0.78	left::DALcm12-v
+	6570.4	0.78	left::DALcl12-d
+	6849.3	0.76	left::DALd
+	7592.4	0.70	left::BAmd1--d
 left::lm_263794
-	8464.6	0.84	BAmd2_d
-	9352.9	0.80	BAmd2_v
-	9385.6	0.80	DAMv12at
-	9460.8	0.80	DAMv12_med
-	10556.6	0.75	BAmd1--v
+	3313.9	0.93	left::DALcl12-d
+	4931.4	0.84	left::DALd
+	5309.9	0.82	left::DALcm12-v
+	5588.7	0.80	left::DALcl12-v
+	7605.1	0.62	left::DALcm12-m
 left::lm_263795
-	9157.9	0.83	BAmd2_v
-	9356.3	0.83	BAmd2_d
-	10506.1	0.78	BAmd1--v
-	10521.5	0.78	DAMv12_med
-	10555.8	0.78	DAMv12at
+	4493.6	0.90	left::DALcl12-d
+	5010.1	0.87	left::DALcl12-v
+	6179.1	0.81	left::DALd
+	6467.0	0.79	left::DALcm12-v
+	8401.3	0.64	left::DALcm12-m
 left::lm_263796
-	8662.6	0.81	BAmd1--d
-	8749.8	0.81	BAmd2_d
-	9113.8	0.80	DALcm12-m
-	9155.0	0.79	DAMd23
-	9327.8	0.79	DALcm12-v
+	1246.2	0.98	left::DALcl12-d
+	1395.3	0.98	left::DALd
+	1692.2	0.97	left::DALcm12-v
+	6207.8	0.58	left::DALcm12-m
+	6784.3	0.49	left::DALcl12-v
 left::lm_263797
-	9565.3	0.85	CM4-vm
-	10630.7	0.82	CM4-dm
-	10745.4	0.81	CM13_med
-	12078.8	0.76	DALv1 Branch Point
-	12261.3	0.76	CM13at
+	7690.6	0.86	left::BLDc
+	8902.8	0.81	left::BLAl
+	9478.0	0.78	left::BLAd-vm
+	9671.1	0.78	left::DPlal1-3at
+	9787.9	0.77	left::BLAd-vl
 left::lm_263798
-	9113.6	0.83	DPMpm2
-	9116.2	0.83	DPMpm1
-	9494.4	0.81	DPMm2
-	10195.5	0.78	DPMpl12
-	10916.1	0.75	DPMl12
+	6319.5	0.90	left::DPLam
+	7554.7	0.86	left::DPLd
+	9071.1	0.80	left::DPLc_antat
+	10566.2	0.72	left::DPLc_postat
+	10631.6	0.72	left::DPlal1-3_ant
 left::lm_263799
-	8730.3	0.83	DPMpm1
-	8832.9	0.82	DPMpm2
-	9117.3	0.81	DPMm2
-	9941.1	0.78	DPMpl12
-	10421.6	0.76	CM4-vm
+	4639.5	0.93	left::DPLam
+	7298.6	0.83	left::DPLd
+	8871.0	0.75	left::DPlal1-3_ant
+	9016.7	0.74	left::DPLc_antat
+	9156.5	0.74	left::DPlal1-3at
 left::lm_263800
-	9012.4	0.85	CM4-vm
-	9960.8	0.82	CM4-dm
-	10255.7	0.81	DALv1 Branch Point
-	11544.1	0.76	DPMpm2
-	11713.6	0.75	DPMm2
+	8777.3	0.86	left::DPLam
+	10276.3	0.81	left::DPlal1-3at
+	10277.3	0.81	left::DPlal1-3_ant
+	11245.0	0.77	left::BLAl
+	11396.5	0.76	left::BLDc
 left::lm_263801
-	8771.1	0.91	DAMd1
-	12585.3	0.81	DAMd23
-	14157.0	0.76	DAMv12at
-	14204.6	0.76	DPMm1
-	14482.0	0.75	DAMv12_med
+	10559.4	0.86	left::DAMd23
+	10950.4	0.85	left::DAMd1
+	11436.4	0.84	left::DPMm1
+	14722.2	0.73	left::DAMv12_med
+	14806.1	0.73	left::DAMv12at
 left::lm_263802
-	6133.2	0.93	DPLd
-	10250.5	0.79	DALd
-	10583.7	0.78	DALcm12-v
-	10890.8	0.77	DPLc_antat
-	11766.3	0.73	DALcl12-d
+	7792.7	0.90	left::DPLd
+	7913.2	0.89	left::DPLc_antat
+	11312.0	0.78	left::DPMl_ant_dor
+	12781.1	0.72	left::DPLc5
+	12859.4	0.71	left::DALcm12-v
 left::lm_263826
-	16104.5	0.84	BAmv12 and BAmas12 Closest Point
-	17158.5	0.82	BAmv12_ven
-	17281.8	0.82	BAmv12_dor
-	18581.3	0.79	BAmv12 and BAla34 Closest Point
-	20494.9	0.74	BAmas12_dor--d
+	1514.3	0.99	left::BAmv12_dor
+	1686.4	0.99	left::BAmv12_ven
+	9133.7	0.72	left::BAmv3
+	10031.2	0.66	left::BAmd1--v
+	10447.5	0.63	left::BAmd2_v
 left::lm_263827
-	4433.5	0.94	BAmd2_v
-	5895.4	0.90	BAmd2_d
-	5969.4	0.90	BAmd1--v
-	10641.3	0.67	BAmd1--d
-	11678.5	0.60	DAMv12at
+	3344.5	0.93	left::BAmd1--v
+	3859.4	0.91	left::BAmd1--d
+	4615.1	0.87	left::BAmd2_d
+	6497.8	0.74	left::BAmd2_v
+	8571.0	0.55	left::DALcl12-v
 left::lm_263828
-	4989.1	0.95	BAmd2_v
-	6600.6	0.90	BAmd1--v
-	7673.5	0.87	BAmd2_d
-	12666.6	0.65	BAmd1--d
-	12898.9	0.63	DAMv12_med
+	1407.2	0.99	left::BAmd2_d
+	2440.2	0.97	left::BAmd1--v
+	3030.5	0.95	left::BAmd2_v
+	6266.3	0.77	left::BAmd1--d
+	10786.3	0.33	left::DAMv12_med
 left::lm_263829
-	22603.6	0.91	TRc/DMT Tracts Crossing Point
-	32679.4	0.82	BAmv12 and BAla34 Closest Point
-	37845.4	0.76	BAmv12_ven
-	38111.1	0.76	BAmv12_dor
-	38346.8	0.75	BAmv12 and BAmas12 Closest Point
+	9937.4	0.90	left::BAlp_ant
+	11445.0	0.87	left::BAlp4
+	14946.0	0.78	left::BLVa34
+	16281.1	0.74	left::BLVa_t
+	17322.0	0.71	left::BAla12
 left::lm_263830
-	23415.2	0.91	TRc/DMT Tracts Crossing Point
-	32971.3	0.82	BAmv12 and BAla34 Closest Point
-	37689.0	0.76	BAmv12_ven
-	37965.4	0.76	BAmv12_dor
-	38072.4	0.76	BAmv12 and BAmas12 Closest Point
+	7830.3	0.93	left::BAlp_ant
+	9243.1	0.90	left::BAlp4
+	15130.4	0.74	left::BAla12
+	15781.0	0.72	left::BAla34
+	15865.2	0.71	left::BAlc_post
 left::lm_263831
-	9969.4	0.87	DPMpm1
-	10875.5	0.84	DPMm1
-	12649.4	0.79	DPMm2
-	13664.1	0.75	DPMpm2
-	13953.1	0.74	DPMl_ant_dor
+	5320.4	0.92	left::DPlal1-3_ant
+	6252.0	0.89	left::DPlal1-3at
+	7284.4	0.84	left::DPLam
+	10148.6	0.70	left::BLAl
+	10792.2	0.66	left::DPLd
 left::lm_263832
-	6484.2	0.90	DPMpm1
-	9365.2	0.80	DPMm2
-	9749.4	0.78	DPMm1
-	10213.6	0.76	DPMpm2
-	10475.4	0.75	DPMl_ant_dor
+	5050.2	0.91	left::DPLam
+	5751.2	0.88	left::DPlal1-3_ant
+	6350.7	0.85	left::DPlal1-3at
+	8844.1	0.71	left::DPLd
+	9748.8	0.65	left::BLAl
 left::lm_263833
-	15978.0	0.85	CM13_med
-	18144.6	0.81	CM13at
-	18853.9	0.79	CM4-vm
-	19727.5	0.77	TRc/DMT Tracts Crossing Point
-	19839.8	0.77	CM4-dm
+	5310.2	0.87	left::BLP12--v
+	5809.2	0.84	left::BLVa12
+	6055.1	0.83	left::BLP34
+	7198.5	0.76	left::BLVp1
+	7898.2	0.71	left::BLVa_t
 left::lm_263839
-	15940.7	0.85	CM13_med
-	18111.5	0.81	CM13at
-	18740.7	0.80	TRc/DMT Tracts Crossing Point
-	19486.9	0.78	CM4-vm
-	20137.0	0.76	BAmv12 and BAla34 Closest Point
+	4542.8	0.87	left::BLP34
+	4657.4	0.87	left::BLVp1
+	5596.9	0.81	left::BLVa12
+	5620.0	0.81	left::BLP12--v
+	7723.5	0.64	left::BLP12--d
 left::lm_263840
-	20601.7	0.88	TRc/DMT Tracts Crossing Point
-	25399.8	0.81	CM13_med
-	27538.5	0.78	CM13at
-	27636.6	0.78	BAmv12 and BAla34 Closest Point
-	29337.2	0.75	CM4-vm
+	2554.1	0.94	left::BLVa_t
+	3688.2	0.88	left::BLVa34
+	3804.6	0.88	left::BLAd-OL
+	6224.2	0.67	left::BLP12--v
+	6554.6	0.63	left::BLAv12_post
 left::lm_263841
-	7848.2	0.91	DPLd
-	12099.2	0.79	DPLc_antat
-	12223.9	0.78	DALd
-	12286.5	0.78	DALcm12-v
-	13562.5	0.73	DPLam
+	7654.3	0.91	left::DPLd
+	7924.2	0.91	left::DPLc_antat
+	13059.2	0.75	left::DPLam
+	13862.8	0.72	left::DALd
+	13981.6	0.71	left::DPLc_postat
 left::lm_263842
-	6937.7	0.92	DPLd
-	11293.5	0.79	DPLc_antat
-	11382.2	0.78	DALd
-	11601.7	0.78	DALcm12-v
-	12735.2	0.73	DPLam
+	9053.1	0.87	left::DPLc_antat
+	9304.0	0.87	left::DPLd
+	10815.1	0.82	left::DPMl_ant_dor
+	13103.7	0.74	left::DPLc5
+	13959.5	0.70	left::DALcm12-v
 left::lm_263843
-	24039.1	0.85	TRc/DMT Tracts Crossing Point
-	27697.2	0.80	BAmv12 and BAla34 Closest Point
-	28125.7	0.80	CM13_med
-	28952.8	0.78	CM4-vm
-	30049.4	0.77	CM4-dm
+	1447.1	0.98	left::BLAvm ant
+	2594.6	0.92	left::BLAvm post
+	4233.3	0.79	left::BLAv12_ant--v
+	5263.0	0.67	left::BLAv12_post
+	5480.7	0.64	left::BLAv12_ant--d
 left::lm_263844
-	27523.3	0.82	TRc/DMT Tracts Crossing Point
-	28460.7	0.80	BAmv12 and BAmas12 Closest Point
-	29191.9	0.79	BAmas12_dor--d
-	29339.8	0.79	BAmv12_ven
-	29347.9	0.79	BAmv12 and BAla34 Closest Point
+	2712.2	0.96	left::BAlc_ant
+	3644.8	0.92	left::BAlc_post
+	4887.0	0.86	left::BAla12
+	7830.8	0.65	left::BAla34
+	8376.1	0.60	left::TRdl post
 left::lm_263845
-	7343.4	0.83	DAMd23
-	7508.8	0.82	BAmd1--d
-	8050.8	0.80	DALcm12-m
-	8446.5	0.78	BAmd2_d
-	8666.0	0.77	DAMv12at
+	2838.3	0.93	left::DALcl12-d
+	2958.8	0.92	left::DALd
+	3072.3	0.92	left::DALcm12-v
+	5044.8	0.77	left::DALcm12-m
+	7745.4	0.46	left::DALcl12-v
 left::lm_263846
-	13734.3	0.86	DAMd1
-	15059.4	0.83	DAMd23
-	16594.5	0.80	DPLd
-	18197.9	0.76	DALcm12-m
-	18375.1	0.75	DALcm12-v
+	15260.4	0.82	left::DAMd23
+	15678.1	0.81	left::DPMm1
+	16075.0	0.80	left::DAMd1
+	16632.0	0.79	left::DPLd
+	17435.7	0.77	left::DALcm12-m
 left::lm_263850
-	21042.4	0.83	BAmv12 and BAmas12 Closest Point
-	22280.3	0.81	BAmv12_ven
-	22422.9	0.81	BAmv12_dor
-	23707.3	0.78	BAmv12 and BAla34 Closest Point
-	24196.6	0.77	BAmas12_dor--d
+	5626.7	0.90	left::BAmv3
+	7929.7	0.80	left::DALv23
+	8142.5	0.79	left::BAlc_ant
+	8300.9	0.78	left::BAlc_post
+	9396.1	0.72	left::BAla12
 left::lm_263851
-	11336.6	0.88	DAMd1
-	12582.9	0.85	DAMd23
-	15420.4	0.77	DPLd
-	15995.5	0.76	DALcm12-m
-	16295.8	0.75	DAMv12at
+	12827.4	0.86	left::DPLd
+	15526.3	0.80	left::DPLc_antat
+	15738.6	0.79	left::DALd
+	16069.3	0.78	left::DALcm12-v
+	16683.7	0.77	left::DALcm12-m
 left::lm_263852
-	15064.5	0.84	BAmd2_v
-	15914.6	0.82	BAmd1--v
-	17655.8	0.78	BAmv12 and BAmas12 Closest Point
-	17667.7	0.78	BAmd2_d
-	17719.7	0.78	DPMpm1
+	4806.7	0.93	left::DALv1
+	6800.7	0.86	left::DALcl12-v
+	8284.4	0.79	left::DALcl12-d
+	9529.7	0.72	left::DALd
+	9960.9	0.70	left::DALcm12-v
 left::lm_263853
-	26541.6	0.81	BAmas12_dor--d
-	26923.5	0.81	BAmv12 and BAmas12 Closest Point
-	27428.2	0.80	TRc/DMT Tracts Crossing Point
-	27851.8	0.79	BAmv12_ven
-	28128.4	0.79	BAmv12_dor
+	4199.9	0.90	left::BAmas12_dor--d
+	5439.3	0.83	left::BAmas12_ven
+	5695.0	0.81	left::BAmas12_dor--v
+	6142.9	0.78	left::TRdl ant
+	7249.4	0.69	left::TRdl post
 left::lm_263854
-	29394.9	0.82	TRc/DMT Tracts Crossing Point
-	29681.4	0.81	BAmas12_dor--d
-	31020.3	0.80	BAmv12 and BAmas12 Closest Point
-	31771.5	0.79	BAmas12_ven
-	31808.0	0.79	BAmv12_ven
+	3108.0	0.89	left::TRdl ant
+	3284.8	0.88	left::BAmas12_dor--v
+	3628.4	0.85	left::BAmas12_ven
+	4889.7	0.73	left::TRdl post
+	5635.7	0.64	left::BAmas12_dor--d
 left::lm_263855
-	26469.5	0.81	BAmas12_dor--d
-	26864.6	0.81	BAmv12 and BAmas12 Closest Point
-	27660.5	0.80	TRc/DMT Tracts Crossing Point
-	27824.6	0.79	BAmv12_ven
-	28099.3	0.79	BAmv12_dor
+	4137.0	0.90	left::BAmas12_dor--d
+	5401.1	0.83	left::BAmas12_ven
+	5686.0	0.81	left::BAmas12_dor--v
+	6283.5	0.77	left::TRdl ant
+	7463.9	0.68	left::TRdl post
 left::lm_263856
-	23520.4	0.81	BAmv12 and BAla34 Closest Point
-	23605.3	0.81	BAmv12 and BAmas12 Closest Point
-	23715.1	0.80	TRc/DMT Tracts Crossing Point
-	24317.7	0.79	BAmv12_ven
-	24394.3	0.79	BAmv12_dor
+	5121.2	0.96	left::DALv23
+	8742.8	0.87	left::DALv1
+	12361.7	0.74	left::BLAvm ant
+	12973.7	0.72	left::DALcl12-v
+	13061.6	0.71	left::BLAvm post
 left::lm_263857
-	24636.1	0.83	BAmas12_dor--d
-	25719.9	0.81	BAmv12 and BAmas12 Closest Point
-	27258.7	0.79	BAmv12_ven
-	27316.7	0.79	BAmas12_ven
-	27502.5	0.78	BAmv12_dor
+	7008.3	0.90	left::BAmas12_dor--d
+	8503.0	0.86	left::BAmas12_ven
+	9297.9	0.83	left::BAmas12_dor--v
+	12234.6	0.71	left::TRdl ant
+	12348.1	0.70	left::BAmv3
 left::lm_263858
-	3079.1	0.95	BAmd2_d
-	6129.0	0.81	BAmd1--d
-	6315.8	0.80	BAmd2_v
-	7407.1	0.73	BAmd1--v
-	7639.6	0.71	DALcm12-m
+	4266.4	0.89	left::BAmd1--d
+	4341.5	0.88	left::BAmd2_d
+	6190.1	0.76	left::BAmd2_v
+	6517.5	0.74	left::BAmd1--v
+	6690.8	0.72	left::DAMv12_med
 left::lm_263859
-	5017.0	0.95	BAmd2_v
-	6243.8	0.92	BAmd1--v
-	7780.8	0.87	BAmd2_d
-	12610.0	0.65	BAmd1--d
-	13310.3	0.62	BAmv12 and BAmas12 Closest Point
+	2648.1	0.96	left::BAmd1--v
+	4610.9	0.87	left::BAmd2_d
+	5399.2	0.83	left::BAmd1--d
+	5976.8	0.79	left::BAmd2_v
+	8583.6	0.56	left::DALcl12-v
 left::lm_263860
-	9475.1	0.84	CM4-vm
-	10216.3	0.82	DALv1 Branch Point
-	10465.0	0.81	CM4-dm
-	11024.0	0.79	CM13_med
-	12268.7	0.74	CM13at
+	8993.5	0.85	left::CPf
+	10183.2	0.81	left::CPe--v
+	10721.6	0.78	left::CM13at
+	10770.1	0.78	left::CM4-vm
+	10913.1	0.78	left::CM13_med
 left::lm_263861
-	29118.3	0.82	TRc/DMT Tracts Crossing Point
-	29907.2	0.81	BAmas12_dor--d
-	31258.9	0.79	BAmv12 and BAmas12 Closest Point
-	31922.1	0.79	BAmv12 and BAla34 Closest Point
-	31960.8	0.79	BAmas12_ven
+	2634.9	0.92	left::TRdl ant
+	3347.2	0.87	left::BAmas12_dor--v
+	3772.2	0.83	left::BAmas12_ven
+	4354.8	0.78	left::TRdl post
+	5828.0	0.60	left::BAmas12_dor--d
 left::lm_263863
-	28519.9	0.85	TRc/DMT Tracts Crossing Point
-	33241.6	0.80	BAmv12 and BAla34 Closest Point
-	34111.0	0.79	BAmv12 and BAmas12 Closest Point
-	34143.5	0.79	BAmas12_dor--d
-	34630.7	0.78	BAmv12_ven
+	1802.5	0.97	left::BAlc_post
+	3021.4	0.90	left::BAlc_ant
+	3153.6	0.90	left::BAla12
+	6016.5	0.62	left::BAla34
+	6089.8	0.61	left::BAlp4
 left::lm_263883
-	7555.0	0.87	DPMpm1
-	8892.3	0.82	DPMpm2
-	8928.4	0.82	DPMm2
-	9957.6	0.77	DPMpl12
-	10848.5	0.73	DPMl_ant_dor
+	7083.0	0.87	left::DPMpm1
+	7337.3	0.86	left::DPMm2
+	8722.3	0.80	left::DPMl_ant_dor
+	9840.8	0.75	left::DPMl12
+	10292.2	0.72	left::CM4-dm
 left::lm_263885
-	22244.1	0.89	TRc/DMT Tracts Crossing Point
-	28937.3	0.81	BAmv12 and BAla34 Closest Point
-	32229.3	0.77	BAmv12_ven
-	32237.4	0.77	BAmv12 and BAmas12 Closest Point
-	32493.3	0.76	BAmv12_dor
+	1789.2	0.99	left::BAlp_ant
+	3406.6	0.96	left::BAlp4
+	8986.5	0.73	left::BAla12
+	9602.4	0.69	left::BAlc_post
+	10523.1	0.63	left::BAla34
 left::lm_263886
-	12525.1	0.87	DAMd1
-	13810.4	0.84	DAMd23
-	16100.1	0.78	DPLd
-	17097.7	0.76	DALcm12-m
-	17438.4	0.75	DALcm12-v
+	14158.8	0.83	left::DAMd23
+	14980.8	0.81	left::DPMm1
+	14989.8	0.81	left::DAMd1
+	16114.5	0.78	left::DPLd
+	16287.6	0.77	left::DALcm12-m
 left::lm_263887
-	9995.4	0.89	DPMm1
-	13302.4	0.80	DAMv12_med
-	13540.3	0.80	DAMv12at
-	13544.1	0.80	DPMpm1
-	16220.0	0.71	DPMl_ant_dor
+	10702.0	0.82	left::DPlal1-3_ant
+	10905.2	0.82	left::DALcl12-d
+	11280.3	0.80	left::DALd
+	11909.2	0.78	left::DPlal1-3at
+	12107.6	0.77	left::DPLam
 left::lm_263889
-	25832.2	0.82	BAmas12_dor--d
-	26648.4	0.81	BAmv12 and BAmas12 Closest Point
-	27794.5	0.79	BAmv12_ven
-	28066.6	0.79	BAmv12_dor
-	28438.3	0.78	BAmas12_ven
+	3401.1	0.95	left::BAmas12_dor--d
+	4914.4	0.89	left::BAmas12_ven
+	5566.7	0.86	left::BAmas12_dor--v
+	7704.5	0.73	left::TRdl ant
+	9612.8	0.58	left::TRdl post
 left::lm_263892
-	17628.5	0.91	TRc/DMT Tracts Crossing Point
-	26114.6	0.80	BAmv12 and BAla34 Closest Point
-	26470.5	0.80	CM13_med
-	28587.4	0.77	CM13at
-	31191.8	0.72	CM4-vm
+	5897.5	0.88	left::BLVa34
+	7229.3	0.81	left::BLVa_t
+	7631.5	0.79	left::BLP34
+	8097.4	0.76	left::BLVa12
+	8241.5	0.76	left::BLP12--v
 left::lm_263932
-	603.3	1.00	DAMd23
-	5806.1	0.76	DAMv12at
-	5845.7	0.76	BAmd1--d
-	5917.6	0.76	DAMd1
-	6328.6	0.72	DAMv12_med
+	3404.7	0.94	left::DAMv12_med
+	3644.4	0.93	left::DAMv12at
+	4514.2	0.89	left::DAMd1
+	5358.0	0.85	left::DAMd23
+	10900.3	0.38	left::BAmd1--d
 left::lm_263933
-	7157.7	0.92	DPMm1
-	11513.6	0.80	DAMv12_med
-	11702.0	0.79	DAMv12at
-	12094.8	0.78	DPMpm1
-	13991.3	0.70	DPMl_ant_dor
+	11600.4	0.81	left::DPlal1-3_ant
+	11834.0	0.80	left::DALcl12-d
+	11908.2	0.80	left::DALd
+	12001.0	0.80	left::DPLam
+	12540.7	0.78	left::DPLd
 left::lm_265594
-	10211.7	0.84	CM4-vm
-	10902.0	0.82	CM13_med
-	11252.1	0.80	CM4-dm
-	11772.1	0.78	DALv1 Branch Point
-	12436.5	0.76	CM13at
+	8001.3	0.83	left::CM4-vm
+	8467.8	0.81	left::CM13_med
+	8693.7	0.80	left::CM4-dm
+	8733.9	0.80	left::CM13at
+	9715.0	0.75	left::CPf
 right::lm_263847
-	32756.3	0.81	CM4-vm
-	33598.4	0.80	CM4-dm
-	34023.2	0.80	DPMpm1
-	34110.7	0.80	DPMm1
-	34691.6	0.79	DPMm2
+	6707.2	0.88	right::DPMpm1
+	8068.9	0.83	right::DPMm2
+	8317.2	0.81	right::DPMpm2
+	9422.4	0.76	right::DPMpl12
+	10287.4	0.72	right::CM4-vm
 right::lm_263895
-	40199.9	0.83	DPMm1
-	42758.0	0.80	DPMpm1
-	44169.8	0.79	DPMm2
-	44486.4	0.79	DPMl_ant_dor
-	44614.9	0.79	CM4-vm
+	11908.5	0.86	right::DAMd1
+	13824.3	0.81	right::DAMd23
+	14021.9	0.80	right::DPMl_ant_dor
+	14879.2	0.78	right::DPLd
+	15967.8	0.75	right::DPMm1
 right::lm_263899
-	20420.0	0.82	BAmv12 and BAmas12 Closest Point
-	21316.5	0.81	BAmv12_ven
-	21388.4	0.80	BAmv12_dor
-	21486.2	0.80	BAmv12 and BAla34 Closest Point
-	23460.9	0.76	TRc/DMT Tracts Crossing Point
+	5038.0	0.89	right::BAmv3
+	5056.9	0.89	right::BAmv12_dor
+	5433.0	0.88	right::BAmv12_ven
+	8384.2	0.71	right::BAmd1--v
+	9518.0	0.62	right::DALv23
 right::lm_263901
-	18353.6	0.86	CM13_med
-	20240.8	0.84	CM13at
-	22401.0	0.80	TRc/DMT Tracts Crossing Point
-	24641.1	0.76	CM4-vm
-	25232.4	0.74	CM4-dm
+	4427.3	0.88	right::BLVa_t
+	5357.4	0.83	right::BLVa34
+	5401.4	0.83	right::BLAv12_ant--v
+	6026.0	0.78	right::BLAv12_post
+	7406.1	0.67	right::BLP12--v
 right::lm_263902
-	35589.2	0.84	DPMm1
-	38737.2	0.81	DPMpm1
-	40486.4	0.79	DPMm2
-	40513.4	0.79	DPMl_ant_dor
-	41175.9	0.78	CM4-vm
+	8477.9	0.89	right::DAMd1
+	10860.2	0.82	right::DAMd23
+	11646.8	0.79	right::DPMl_ant_dor
+	12240.4	0.77	right::DPMm1
+	13174.4	0.73	right::DAMv12at
 right::lm_263903
-	10432.0	0.85	BAmv12 and BAmas12 Closest Point
-	10481.0	0.84	BAmv12_ven
-	10644.1	0.84	BAmv12_dor
-	10798.2	0.83	BAmv12 and BAla34 Closest Point
-	16005.9	0.64	BAmas12_dor--d
+	6502.6	0.86	right::BAlc_ant
+	6560.4	0.86	right::BAlc_post
+	7342.6	0.82	right::BAmv3
+	7416.3	0.81	right::DALv23
+	10149.1	0.65	right::BAla12
 right::lm_263904
-	16682.0	0.84	CM4-vm
-	17621.2	0.82	CM4-dm
-	18079.3	0.81	CM13_med
-	19891.2	0.78	CM13at
-	21211.4	0.74	DPMm2
+	3793.0	0.93	right::DPlal1-3_ant
+	4179.1	0.92	right::BLAl
+	4722.5	0.90	right::DPlal1-3at
+	8781.7	0.65	right::BLAd-vm
+	9451.4	0.60	right::DPLam
 right::lm_263905
-	11843.5	0.89	CM13_med
-	13987.5	0.85	CM13at
-	17515.4	0.77	CM4-vm
-	18254.2	0.75	CM4-dm
-	18789.2	0.73	DALv1 Branch Point
+	2784.1	0.94	right::BLAv12at
+	4679.6	0.83	right::BLAv12_ant--d
+	5403.8	0.78	right::BLAd-vm
+	5820.6	0.74	right::BLAvm ant
+	6108.5	0.71	right::BLAv12_post
 right::lm_263906
-	4636.9	0.98	TRc/DMT Tracts Crossing Point
-	11240.6	0.88	BAmv12 and BAla34 Closest Point
-	15798.1	0.77	BAlp_ant
-	17453.0	0.72	BAlp4
-	19754.2	0.64	BAla34
+	4921.5	0.96	right::BAlp_ant
+	7149.5	0.92	right::BAlp4
+	13457.4	0.72	right::BAla12
+	14024.8	0.70	right::BAla34
+	14249.8	0.69	right::BAlc_post
 right::lm_263907
-	5291.5	0.98	TRc/DMT Tracts Crossing Point
-	13771.4	0.88	BAmv12 and BAla34 Closest Point
-	19036.4	0.76	BAlp_ant
-	20945.4	0.71	BAlp4
-	22689.9	0.66	BAmv12_ven
+	5332.7	0.96	right::BAlp_ant
+	8903.8	0.90	right::BAlp4
+	14670.1	0.73	right::BLVa_t
+	15247.6	0.71	right::BAla12
+	15641.3	0.69	right::BAla34
 right::lm_263926
-	23754.3	0.81	CM4-vm
-	24478.8	0.80	DPMpm1
-	24550.2	0.80	CM4-dm
-	25095.6	0.79	DPMm2
-	25405.6	0.79	DPMm1
+	7659.4	0.91	right::DPLam
+	9640.5	0.86	right::DPLd
+	13101.4	0.75	right::DPlal1-3_ant
+	13257.2	0.74	right::DALd
+	13403.4	0.74	right::DALcl12-d
 right::lm_263927
-	38921.3	0.81	CM4-vm
-	39326.3	0.80	DPMm1
-	39539.5	0.80	DPMpm1
-	39544.1	0.80	CM4-dm
-	40071.7	0.79	DPMm2
+	5124.4	0.95	right::DPLd
+	9226.3	0.83	right::DPLc_antat
+	10297.8	0.79	right::DPLam
+	11469.2	0.74	right::DALd
+	12152.7	0.70	right::DALcm12-v
 right::lm_263928
-	18437.0	0.83	BAmv12 and BAmas12 Closest Point
-	19312.4	0.81	BAmv12_ven
-	19340.5	0.81	BAmv12_dor
-	19677.9	0.80	BAmv12 and BAla34 Closest Point
-	21667.9	0.76	BAmd2_v
+	4645.8	0.95	right::DALv23
+	7497.5	0.88	right::BAmv3
+	10716.6	0.75	right::DALcl12-v
+	11160.7	0.72	right::DALv1
+	11616.3	0.70	right::BAmd1--v
 right::lm_263930
-	7955.9	0.93	TRc/DMT Tracts Crossing Point
-	8243.9	0.93	BAmv12 and BAla34 Closest Point
-	15916.2	0.72	BAmv12_ven
-	16099.7	0.72	BAmv12_dor
-	16415.9	0.70	BAlp_ant
+	4678.5	0.93	right::BAlp_ant
+	5147.1	0.91	right::BAlp4
+	8441.7	0.76	right::BAlc_post
+	9039.5	0.72	right::BAla12
+	9780.3	0.68	right::BAlc_ant
 right::lm_263931
-	34077.8	0.84	DPMm1
-	37085.4	0.81	DPMpm1
-	38523.7	0.79	CM4-vm
-	39000.0	0.79	DPMm2
-	39171.0	0.78	DAMv12_med
+	4551.9	0.89	right::DALcm12-m
+	4879.3	0.87	right::DALcm12-v
+	6125.3	0.80	right::BAmd1--d
+	6801.9	0.75	right::DALd
+	7467.8	0.70	right::DAMd23
 right::lm_263934
-	29318.4	0.82	CM13_med
-	29517.2	0.82	CM4-vm
-	30224.2	0.81	CM4-dm
-	31048.8	0.80	CM13at
-	33908.9	0.76	DPMm2
+	10051.2	0.83	right::DPlal1-3at
+	10555.4	0.81	right::DPlal1-3_ant
+	10915.3	0.80	right::BLAl
+	11171.8	0.79	right::DPLam
+	11216.8	0.78	right::DALv1
 right::lm_263953
-	16906.0	0.85	CM13_med
-	17523.8	0.84	TRc/DMT Tracts Crossing Point
-	18673.3	0.82	CM13at
-	21530.6	0.76	BLVp1
-	22450.5	0.74	CPe--v
+	2235.4	0.97	right::BLVa_t
+	5685.1	0.80	right::BLVa34
+	6421.7	0.75	right::BLAv12_post
+	6488.2	0.75	right::BLAvm post
+	6666.4	0.73	right::BLAvm ant
 right::lm_263954
-	38758.8	0.81	CM4-vm
-	39373.0	0.80	CM4-dm
-	39843.3	0.80	DPMpm1
-	40030.7	0.80	DPMm1
-	40201.2	0.79	DPMm2
+	4165.3	0.96	right::DPLd
+	7367.2	0.87	right::DPLc_antat
+	9344.6	0.80	right::DPLam
+	11147.4	0.71	right::DALd
+	12115.7	0.66	right::DALcl12-d
 right::lm_263955
-	29945.7	0.83	DPMm1
-	32281.7	0.80	DAMv12_med
-	32394.3	0.80	DPMpm1
-	32716.7	0.79	DAMv12at
-	32905.6	0.79	BAmd2_v
+	2702.3	0.96	right::BAmd2_v
+	3019.1	0.95	right::BAmd2_d
+	3324.3	0.94	right::BAmd1--v
+	7875.7	0.64	right::BAmd1--d
+	9029.6	0.52	right::DALcm12-m
 right::lm_263956
-	29671.9	0.83	DPMm1
-	32100.0	0.80	DAMv12_med
-	32558.7	0.80	DAMv12at
-	32900.7	0.79	DPMpm1
-	33939.2	0.78	BAmd2_v
+	2570.6	0.97	right::BAmd2_d
+	4546.4	0.90	right::BAmd2_v
+	6268.4	0.81	right::BAmd1--v
+	7484.8	0.73	right::BAmd1--d
+	9285.0	0.59	right::DALcm12-m
 right::lm_263957
-	32067.3	0.83	DPMm1
-	35350.4	0.80	DPMpm1
-	35436.9	0.80	DAMv12_med
-	35896.8	0.79	DAMv12at
-	36904.5	0.78	CM4-vm
+	2803.0	0.95	right::BAmd2_d
+	3404.7	0.93	right::BAmd1--d
+	5228.7	0.83	right::DALcm12-m
+	7033.2	0.69	right::DAMd23
+	7819.5	0.61	right::BAmd2_v
 right::lm_264325
-	34414.1	0.82	DPMm1
-	36017.5	0.80	DPMpm1
-	36084.5	0.80	CM4-vm
-	37038.0	0.79	CM4-dm
-	37402.9	0.79	DPMm2
+	2357.3	0.96	right::DALd
+	2670.4	0.95	right::DALcm12-v
+	4415.4	0.85	right::DALcl12-d
+	6642.4	0.66	right::DPLd
+	7338.6	0.59	right::DALcm12-m
 right::lm_264327
-	39401.6	0.83	DPMm1
-	42097.5	0.81	DPMpm1
-	43589.8	0.79	DPMm2
-	43891.5	0.79	DPMl_ant_dor
-	44020.9	0.79	CM4-vm
+	11343.9	0.87	right::DAMd1
+	12750.2	0.83	right::DAMd23
+	14363.5	0.79	right::DPLd
+	15016.7	0.77	right::DPMl_ant_dor
+	16058.0	0.74	right::DALcm12-m
 right::lm_264328
-	5087.9	0.98	TRc/DMT Tracts Crossing Point
-	13560.1	0.88	BAmv12 and BAla34 Closest Point
-	18808.1	0.76	BAlp_ant
-	20685.4	0.71	BAlp4
-	22500.7	0.66	BAmv12_ven
+	5186.5	0.97	right::BAlp_ant
+	8686.9	0.90	right::BAlp4
+	14895.7	0.72	right::BLVa_t
+	15042.1	0.71	right::BAla12
+	15424.7	0.70	right::BAla34
 right::lm_264486
-	32563.9	0.83	DPMm1
-	34406.6	0.81	DPMpm1
-	35412.4	0.79	CM4-vm
-	35803.3	0.79	DPMm2
-	36206.6	0.78	CM4-dm
+	6454.6	0.88	right::DPMpm1
+	6472.9	0.88	right::DPMl_ant_dor
+	6510.8	0.88	right::DPMm1
+	10432.8	0.70	right::DPMm2
+	11157.6	0.65	right::DPMpm2
 right::lm_264495
-	34936.1	0.81	DPMm1
-	35411.3	0.80	CM4-vm
-	35736.1	0.80	DPMpm1
-	36224.2	0.80	CM4-dm
-	36701.8	0.79	DPMm2
+	7117.5	0.88	right::DPMpm1
+	8375.5	0.84	right::DPMl_ant_dor
+	9823.2	0.77	right::DPMm2
+	10014.6	0.76	right::DPMpm2
+	10417.9	0.75	right::DPMm1
 right::lm_264536
-	31110.1	0.81	DPMm1
-	31229.2	0.81	CM4-vm
-	31901.0	0.80	DPMpm1
-	32276.3	0.80	CM4-dm
-	33154.6	0.78	DPMm2
+	2607.9	0.95	right::DALcl12-d
+	3292.4	0.93	right::DALd
+	4364.5	0.87	right::DALcm12-v
+	5488.7	0.80	right::DALcl12-v
+	8996.2	0.45	right::DALcm12-m
 right::lm_264594
-	32295.5	0.85	DPMm1
-	37032.7	0.80	DPMpm1
-	38179.6	0.79	DPMl_ant_dor
-	39106.0	0.78	DAMv12_med
-	39418.5	0.78	DPMm2
+	7580.8	0.91	right::DAMd1
+	11082.1	0.81	right::DPMm1
+	12067.7	0.78	right::DAMd23
+	12648.4	0.76	right::DAMv12at
+	12930.4	0.74	right::DAMv12_med
 right::lm_264696
-	38066.5	0.81	CM4-vm
-	38695.3	0.80	CM4-dm
-	39025.3	0.80	DPMpm1
-	39114.8	0.80	DPMm1
-	39446.9	0.79	DPMm2
+	3890.8	0.96	right::DPLd
+	8119.1	0.84	right::DPLc_antat
+	9019.6	0.80	right::DPLam
+	10784.1	0.72	right::DALd
+	11730.6	0.67	right::DALcm12-v
 right::lm_264752
-	40672.2	0.81	CM4-vm
-	41323.5	0.80	CM4-dm
-	41689.8	0.80	DPMm1
-	41748.3	0.80	DPMpm1
-	42195.5	0.79	DPMm2
+	7362.2	0.87	right::DPLd
+	8809.1	0.82	right::DPLc5
+	9106.1	0.81	right::DPMl_ant_dor
+	9279.3	0.80	right::DPLc_antat
+	11166.4	0.71	right::DALd
 right::lm_264756
-	39023.1	0.81	CM4-vm
-	39629.9	0.80	CM4-dm
-	40194.2	0.80	DPMpm1
-	40454.7	0.80	DPMm1
-	40511.6	0.79	DPMm2
+	4370.0	0.96	right::DPLd
+	6914.5	0.89	right::DPLc_antat
+	9489.6	0.79	right::DPLam
+	11350.6	0.70	right::DALd
+	12097.0	0.66	right::DPLc5
 right::lm_265592
-	36444.2	0.83	DPMm1
-	38748.0	0.81	DPMpm1
-	40116.3	0.79	DPMm2
-	40471.4	0.79	DPMl_ant_dor
-	40674.7	0.79	CM4-vm
+	13790.1	0.87	right::DPLd
+	17449.6	0.79	right::DALcm12-v
+	17758.9	0.78	right::DPLc_antat
+	17918.6	0.78	right::DALd
+	18122.5	0.77	right::DAMd23
 right::lm_265593
-	22874.7	0.84	CM13_med
-	24635.6	0.82	CM4-vm
-	24664.7	0.81	CM13at
-	25310.5	0.80	CM4-dm
-	30040.7	0.72	DPMm2
+	6002.1	0.85	right::BLAd-vl
+	6091.2	0.84	right::BLAd-vm
+	6807.7	0.80	right::DPlal1-3at
+	7509.8	0.76	right::BLDc
+	7634.0	0.75	right::DPlal1-3_ant
 right::lm_266765
-	36159.0	0.83	DPMm1
-	38829.1	0.81	DPMpm1
-	40335.7	0.79	DPMm2
-	40362.4	0.79	DPMl_ant_dor
-	41175.4	0.78	CM4-vm
+	15029.0	0.86	right::DPLd
+	18363.9	0.79	right::DAMd1
+	18381.6	0.79	right::DAMd23
+	18414.8	0.79	right::DALcm12-v
+	18903.6	0.78	right::DPLc_antat
