@@ -84,7 +84,7 @@ def parse_entry_csv(fpath, group=None) -> List[Landmark]:
         rdr = csv.reader(f)
         for row in rdr:
             lmid = int(row[1])
-            name = "lm_" + row[1].strip()
+            name = f"sk{row[0].strip()}_tn{row[1].strip()}"
             loc = np.array([float(x) for x in row[3:6]])
             out.append(Landmark(lmid, loc, name, group=group))
     return out
