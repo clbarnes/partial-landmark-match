@@ -1,5 +1,9 @@
 # partial-landmark-match
 
+Written for Python 3.9.
+Install requirements with `pip install -r requirements.txt`.
+Run with `python -m main.py`.
+
 ## Problem
 
 - There are 2x3D spaces, X and Y, each with some locations marked
@@ -8,7 +12,13 @@
 - The locations in Y match with a subset of locations in X
 - The labels of locations in Y are largely unknown
 
-## Suggested algorithm (NOT IMPLEMENTED YET)
+## Algorithm
+
+- Use moving least squares (affine) to transform one side to the other
+- Find N nearest neighbours to each transformed point
+- Parameterise how close each is with `1 - (distance^2 / sum(all_distances**2))`
+
+## Possible extension algorithm (NOT IMPLEMENTED YET)
 
 - Use matched locations (i.e. exist in X and Y and share a label) as control points in moving least squares
 - Find the closest location in Y (`L`) to the control points
